@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="bloques.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <section class="game-section">
+        <canvas id="game" width="200px" height="400px"></canvas>
+        <div class="info-game-cont">
+            <div class="info-game">
+                <div class="score-cont">
+                    <div class="score-title">
+                        <span>Score</span>
+                    </div>
+                    <div class="score">
+                        <span>000</span> 
+                    </div>
+                </div>
+                <div class="time-cont">
+                    <div class="time-title">
+                        <span>Time</span>
+                    </div>
+                    <div class="time">
+                        <span>00:00</span>
+                    </div>
+                </div>
+                <div class="controler-cont">
+                    <button id="restart">Restart</button>
+                    <button id="stop">Pause</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
